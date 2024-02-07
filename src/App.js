@@ -1,13 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import PhoneNumber from "./components/phoneNumber";
 
 function App() {
   return (
     <div className="App">
-      
-      <header className="App-header">
-       <h3>Enter your phone number</h3>
-      </header>
+      <PhoneNumber />
     </div>
   );
 }
